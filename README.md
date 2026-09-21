@@ -1,14 +1,14 @@
 # Sorting Algorithm Visualizer using a Chessboard Metaphor
 
-[Español](README_es.md)
-
 ![Java](https://img.shields.io/badge/Java-21-blue?style=for-the-badge&logo=java)
 
 Welcome! This is a unique command-line tool, written in Java, that visualizes classic sorting algorithms in a highly original way: by using a chessboard and its pieces as the data to be sorted.
 
 **Please Note:** This is an educational tool for visualizing algorithms and **not** a playable chess game.
 
-## ✨ Core Concept
+https://github.com/user-attachments/assets/ce1e2ed5-219c-4b07-b3ad-423f7c9ccd22
+
+## Core Concept
 
 The program works by placing a specified number of chess pieces randomly onto an 8x8 board. It then sorts these pieces based on a chosen algorithm and comparison criteria (either by a number or a letter assigned to each piece).
 
@@ -82,9 +82,7 @@ To run a visualization of **Bubble Sort** (`a=b`) on **16 black pieces** (`r=16`
 java -cp out/production/Chess Main a=b t=n c=b r=16 s=100
 ```
 
-https://github.com/user-attachments/assets/ce1e2ed5-219c-4b07-b3ad-423f7c9ccd22
-
-## 📂 Project Structure
+## Project Structure
 
 The project is organized with a clear separation of concerns:
 
@@ -97,7 +95,3 @@ The project is organized with a clear separation of concerns:
 -   `BubbleSort.java`, `InsertionSort.java`, etc.: Concrete implementations of the sorting algorithms.
 -   `SortStrategyFactory.java`: A factory class to create the appropriate sorting strategy instance based on user input.
 -   `CellComparators.java`: Provides `Comparator` objects used to define the sorting logic (by number or by letter).
-
-## 🤝 Contributions
-
-Contributions are welcome! If you have ideas for improvements, new features, or bug fixes, feel free to open an issue or submit a pull request.
